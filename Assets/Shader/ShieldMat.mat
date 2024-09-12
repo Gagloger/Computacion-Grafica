@@ -38,7 +38,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: 044dc6cf55c11d24794f5ff037d89d5d, type: 3}
+        m_Texture: {fileID: 8900000, guid: f352228bc41c21e498353522a5b836c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalMap:
+        m_Texture: {fileID: 2800000, guid: 934c93de22e8c2e42a1f74ef4ad209de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,7 +59,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Color_Power: 9.6
+    - _Index_Refraction: 1
+    - _Intersection_Thickness: 0.1
+    - _Intersection_smothness: 0.05
+    - _Normal_mag: 0.14
+    - _Normal_tiling: 0.3
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _Refraction_Intensity: 20
+    - _refractionIntensity: 0.11
+    m_Colors:
+    - _Color: {r: 23.968628, g: 0, b: 9.208464, a: 0.6156863}
+    - _Normal_velocity: {r: 2, g: 1, b: 2, a: 0}
   m_BuildTextureStacks: []
