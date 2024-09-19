@@ -4898,7 +4898,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "a21c6564c2974a288dfb62e8d229bbb0",
-    "m_Title": "Interections",
+    "m_Title": "Intersections",
     "m_Position": {
         "x": -1969.0001220703125,
         "y": 1536.0
