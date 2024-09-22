@@ -56,11 +56,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _DisolveSmoothness: 0.02
-    - _DisolveStart: 0.42
+    - _DisolveStart: 0.41
     - _ErosionStrenght: 1
-    - _NoiseScale: 17
+    - _NoiseScale: 18.39
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _NoiseVel: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseVel: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
