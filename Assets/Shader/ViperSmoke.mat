@@ -31,7 +31,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -46,6 +47,10 @@ Material:
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0.55, y: 0}
     - _SmokeText2:
+        m_Texture: {fileID: 2800000, guid: f19d0ee4f4e34e1468d380c3cc59d66e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmokeText3:
         m_Texture: {fileID: 2800000, guid: 015e50e76b197394a83e268ac6417fbd, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
@@ -63,16 +68,32 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _InnerShade: 1
-    - _OuterShade: 1
-    - _PowerGradient: 1
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DisplacementAmount: 0.15
+    - _DstBlend: 0
+    - _InnerShade: 0.5
+    - _OuterShade: 0.9
+    - _PowerGradient: 1.1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
     - _AnimSpeed: {r: 0.01, g: -0.3, b: 0, a: 0}
     - _AnimSpeed1: {r: 0, g: -0.1, b: 0, a: 0}
     - _AnimSpeed2: {r: 0.01, g: -0.2, b: 0, a: 0}
+    - _AnimSpeed3: {r: -0.01, g: -0.2, b: 0, a: 0}
+    - _DisplacementTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DisplacementVel: {r: 0.1, g: 0.04, b: 0, a: 0}
     - _PatternColor: {r: 0.003203981, g: 0.22641507, b: 0.03812819, a: 1}
     - _PatternColor1: {r: 0.45882356, g: 0.92549026, b: 0.11764707, a: 1}
-    - _PatternColor2: {r: 0, g: 0.5254902, b: 0.058823533, a: 1}
+    - _PatternColor2: {r: 0, g: 0.98039216, b: 0.4745098, a: 1}
+    - _PatternColor3: {r: 0.016153438, g: 0.31132078, b: 0.049194586, a: 1}
   m_BuildTextureStacks: []
